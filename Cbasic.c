@@ -1,7 +1,54 @@
 #include <stdio.h>
 
-int main(){
-    //data types -> int, char, float, double, long long
-    //printf
-    //scanf
+int main() {
+    // Basic Data Types
+    int age = 20;            // Integer type
+    char grade = 'A';        // Character type
+    float height = 5.9;     // Floating point type (single precision)
+    double weight = 70.5;    // Double precision floating point
+    long long bigNum = 1234567890123LL; // Long long integer
+
+    // Printing variables
+    printf("Age: %d\n", age);
+    printf("Grade: %c\n", grade);
+    printf("Height: %f\n", height);
+    printf("Weight: %lf\n", weight);
+    printf("Big Number: %lld\n", bigNum);
+
+    // Operators
+    int a = 10, b = 3;
+    printf("a + b = %d\n", a + b); // Addition
+    printf("a - b = %d\n", a - b); // Subtraction
+    printf("a * b = %d\n", a * b); // Multiplication
+    printf("a / b = %d\n", a / b); // Division (integer)
+    printf("a %% b = %d\n", a % b); // Modulus (remainder)
+
+    // If-Else Statement
+    if (age >= 18) {
+        printf("You are an adult.\n");
+    } else {
+        printf("You are not an adult.\n");
+    }
+
+    // For Loop: Print numbers 1 to 5
+    for (int i = 1; i <= 5; i++) {
+        printf("%d ", i);
+    }
+    printf("\n");
+
+    // While Loop: Print numbers 1 to 5
+    int i = 1;
+    while (i <= 5) {
+        printf("%d ", i);
+        i++;
+    }
+    printf("\n");
+
+    // Taking input from user
+    int userNum;
+    printf("Enter a number: ");
+    scanf("%d", &userNum); // Read integer from user
+    printf("You entered: %d\n", userNum);
+
+    return 0;
 }
