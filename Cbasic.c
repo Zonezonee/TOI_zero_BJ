@@ -3,10 +3,15 @@
 int main() {
     // Basic Data Types
     int age = 20;            // Integer type
+    //int can only store number between around -2*10^9 and 2*10^9
+    //if the number is bigger or smaller than that you should use long long instead
+    long long bigNum = 1234567890123LL; // Long long integer
     char grade = 'A';        // Character type
     float height = 5.9;     // Floating point type (single precision)
     double weight = 70.5;    // Double precision floating point
-    long long bigNum = 1234567890123LL; // Long long integer
+
+    // Printing variables
+    printf("TESTING\n");
 
     // Printing variables
     printf("Age: %d\n", age);
@@ -22,6 +27,12 @@ int main() {
     printf("a * b = %d\n", a * b); // Multiplication
     printf("a / b = %d\n", a / b); // Division (integer)
     printf("a %% b = %d\n", a % b); // Modulus (remainder)
+    
+    // Taking input from user
+    int userNum;
+    printf("Enter a number: ");
+    scanf("%d", &userNum); // Read integer from user
+    printf("You entered: %d\n", userNum);
 
     // If-Else Statement
     if (age >= 18) {
@@ -43,12 +54,4 @@ int main() {
         i++;
     }
     printf("\n");
-
-    // Taking input from user
-    int userNum;
-    printf("Enter a number: ");
-    scanf("%d", &userNum); // Read integer from user
-    printf("You entered: %d\n", userNum);
-
-    return 0;
 }
