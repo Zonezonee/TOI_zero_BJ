@@ -9,6 +9,12 @@ int main() {
     char grade = 'A';        // Character type
     float height = 5.9;     // Floating point type (single precision)
     double weight = 70.5;    // Double precision floating point
+    
+    //string
+    char string[505] = "abc";
+    printf("string: %s\n",string);
+    scanf("%s\n", string);
+    printf("%c\n", string[0]); // print a
 
     // Printing variables
     printf("TESTING\n");
@@ -19,7 +25,7 @@ int main() {
     printf("Height: %f\n", height);
     printf("Weight: %lf\n", weight);
     printf("Big Number: %lld\n", bigNum);
-
+    
     // Operators
     int a = 10, b = 3;
     printf("a + b = %d\n", a + b); // Addition
