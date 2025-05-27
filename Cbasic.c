@@ -41,6 +41,13 @@ int main() {
     printf("You entered: %d\n", userNum);
 
     // If-Else Statement
+    /*
+    if(เงื่อนไข){
+        โค้ดที่จะทำเมื่อเงื่อนไขเป็นจริง
+    } else{
+        โค้ดที่จะทำเมื่อเงื่อนไขเป็นเท็จ
+    }
+    */
     if (age >= 18) {
         printf("You are an adult.\n");
     } else {
