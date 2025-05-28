@@ -54,17 +54,24 @@ int main() {
         printf("You are not an adult.\n");
     }
 
+    // While Loop: Print numbers 1 to 5
+    /*
+    while(เงื่อนไข){
+        โค้ดที่ทำเมื่อเงื่อนไขเป็นจริง
+    }
+    เมื่อทำเสร็จจะกลับไปเช็คเงื่อนไขอีกครั้ง จนกว่าเงื่อไขจะเป็นเท้จ
+    */
+    int i = 1;
+    while (i <= 5) {
+        printf("%d ", i);
+        i++;
+    }
+
     // For Loop: Print numbers 1 to 5
     for (int i = 1; i <= 5; i++) {
         printf("%d ", i);
     }
     printf("\n");
 
-    // While Loop: Print numbers 1 to 5
-    int i = 1;
-    while (i <= 5) {
-        printf("%d ", i);
-        i++;
-    }
     printf("\n");
 }
