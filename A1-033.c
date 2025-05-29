@@ -7,7 +7,7 @@ int main(){
     int cnt = 0;
     while(i <= n){
         char c;
-        scanf("%c", &c);
+        scanf(" %c", &c);
         if(c == 'A' || c == 'I' || c == 'U' || c == 'E' || c == 'O'){
             cnt = cnt + 1;
         }
